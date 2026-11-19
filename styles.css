@@ -185,3 +185,53 @@ h1 { margin: 19px 0 19px; font-size: clamp(41px, 4.1vw, 60px); font-weight: 800;
 @media (max-width: 720px) {
   .brand { width: 143px; padding: 10px 12px; }
 }
+
+/* KleanOps quote integration */
+.nav-quote-link {
+  padding: 5px 11px;
+  color: var(--professionalism) !important;
+  border: 1.5px solid currentColor;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: color .18s ease, background-color .18s ease;
+}
+.nav-quote-link:hover,
+.nav-quote-link:focus-visible {
+  color: #fff !important;
+  background: var(--professionalism);
+  outline: none;
+}
+.quote-cta-block {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding: 34px 31px;
+  background: color-mix(in srgb, var(--canvas) 86%, white);
+  border: 1px solid color-mix(in srgb, var(--professionalism) 19%, var(--canvas));
+  border-radius: 13px;
+  box-shadow: 0 14px 21px rgba(0, 29, 61, .10);
+}
+.quote-cta-eyebrow {
+  margin: 0;
+  color: var(--sky);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .95px;
+  text-transform: uppercase;
+}
+.quote-cta-title {
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: -1.05px;
+  line-height: 1.14;
+  text-wrap: balance;
+}
+.quote-cta-body { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.58; }
+.quote-cta-btn { align-self: flex-start; min-height: 44px; margin-top: 3px; padding: 0 23px; font-size: 13px; }
+.quote-cta-note { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.45; }
+
+@media (max-width: 720px) {
+  .nav-quote-link { width: fit-content; }
+  .quote-cta-block { padding: 26px 23px; }
+  .quote-cta-btn { align-self: stretch; }
+}
