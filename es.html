@@ -12,7 +12,7 @@
       <header class="site-header" aria-label="Navegación principal">
         <a class="brand" href="#top" aria-label="Inicio de HQ Cleaning Services"><img src="Entregables/Marca/SVG/Logo-horizontal/logo-horizontal-color-profesionalismo.svg" alt="HQ Cleaning Services" /></a>
         <nav class="nav-links" aria-label="Navegación principal">
-          <a href="about-es.html">Quiénes somos</a><a href="#services">Servicios</a><a href="#how-it-works">Cómo trabajamos</a><a href="#why-hq">Por qué HQ</a><a href="#contact">Contacto</a><a class="nav-quote-link" href="https://suite.kalimasgroup.net/es/book/klean/hq-cleaning-services" target="_blank" rel="noopener">Pedir cotización <span aria-hidden="true">↗</span></a><a href="index.html">English</a>
+          <a href="about-es.html">Quiénes somos</a><a href="#services">Servicios</a><a href="#how-it-works">Cómo trabajamos</a><a href="#why-hq">Por qué HQ</a><a href="#contact">Contacto</a><a class="nav-quote-link" href="#" data-open-booking>Pedir cotización <span aria-hidden="true">↗</span></a><a href="index.html">English</a>
         </nav>
         <button class="menu-toggle" type="button" aria-label="Abrir navegación" aria-expanded="false"><span></span><span></span><span></span></button>
       </header>
@@ -22,7 +22,7 @@
           <p class="eyebrow">Limpieza profesional en Miami, FL</p>
           <h1 id="hero-title">Limpieza de alta<br />calidad en la que<br />puede confiar.</h1>
           <p class="intro">Limpieza precisa, confiable y especializada para oficinas, empresas, espacios comerciales, casas y propiedades de alquiler. Revisamos cada trabajo antes de irnos.</p>
-          <div class="hero-actions"><a class="button button-primary" href="https://suite.kalimasgroup.net/es/book/klean/hq-cleaning-services" target="_blank" rel="noopener">Pida su cotización gratis</a><a class="button button-outline" href="https://wa.me/13057762331" target="_blank" rel="noopener">Escríbanos por WhatsApp</a></div>
+          <div class="hero-actions"><a class="button button-primary" href="#" data-open-booking>Pida su cotización gratis</a><a class="button button-outline" href="https://wa.me/13057762331" target="_blank" rel="noopener">Escríbanos por WhatsApp</a></div>
         </div>
         <div class="hero-panel-wrap" id="standard" aria-label="Estándar de calidad de HQ">
           <div class="abstract-mark" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -56,10 +56,17 @@
 
       <section class="contact" id="contact" aria-labelledby="contact-title">
         <div class="contact-copy"><h2 id="contact-title">Hablemos de su espacio</h2><p>Escríbanos por WhatsApp o síganos en redes. Respondemos lo antes posible.</p><ul class="contact-list"><li><span aria-hidden="true">⌖</span><strong>Ubicación:</strong> Miami, FL</li><li><span aria-hidden="true">◯</span><strong>WhatsApp:</strong> <a href="https://wa.me/13057762331" target="_blank" rel="noopener">(305) 776–2331</a></li></ul><a class="button button-primary contact-button" href="https://wa.me/13057762331" target="_blank" rel="noopener">Escribir por WhatsApp</a><ul class="social-list"><li><span aria-hidden="true">✉</span><strong>Correo:</strong> <a href="mailto:informacion@hqcleaningservices.net">informacion@hqcleaningservices.net</a></li><li><span aria-hidden="true">f</span><strong>Facebook:</strong> HQ Cleaning Services</li><li><span aria-hidden="true">◎</span><strong>Instagram:</strong> <a href="https://www.instagram.com/hqcleaning_services/" target="_blank" rel="noopener">@hqcleaning_services</a></li></ul></div>
-        <aside class="quote-cta-block" aria-label="Cotización en línea"><p class="quote-cta-eyebrow">Obtenga su cotización detallada en minutos</p><h3 class="quote-cta-title">¿Listo para empezar?</h3><p class="quote-cta-body">Nuestro asistente de cotización en línea le guía por los detalles, como tipo de espacio, frecuencia y extras, y le ofrece un precio claro sin compromiso.</p><a class="button button-primary quote-cta-btn" href="https://suite.kalimasgroup.net/es/book/klean/hq-cleaning-services" target="_blank" rel="noopener">Pedir mi cotización gratis <span aria-hidden="true">→</span></a><p class="quote-cta-note">¿Ya tiene una cotización? Revise su correo para acceder al seguimiento de su servicio.</p></aside>
+        <aside class="quote-cta-block" aria-label="Cotización en línea"><p class="quote-cta-eyebrow">Obtenga su cotización detallada en minutos</p><h3 class="quote-cta-title">¿Listo para empezar?</h3><p class="quote-cta-body">Nuestro asistente de cotización en línea le guía por los detalles, como tipo de espacio, frecuencia y extras, y le ofrece un precio claro sin compromiso.</p><a class="button button-primary quote-cta-btn" href="#" data-open-booking>Pedir mi cotización gratis <span aria-hidden="true">→</span></a><p class="quote-cta-note">¿Ya tiene una cotización? Revise su correo para acceder al seguimiento de su servicio.</p></aside>
       </section>
       <footer class="site-footer"><a class="footer-brand" href="#top" aria-label="Inicio de HQ Cleaning Services"><img src="Entregables/Marca/SVG/Logo-vertical/logo-vertical-color-profesionalismo.svg" alt="HQ Cleaning Services" /></a><p>© HQ Cleaning Services · Miami, FL</p><p>Facebook · Instagram @hqcleaning_services</p></footer>
     </main>
+    <div id="booking-modal" class="bk-modal" role="dialog" aria-modal="true" aria-label="Reservar limpieza" hidden>
+      <div class="bk-modal-backdrop"></div>
+      <div class="bk-modal-box">
+        <button class="bk-modal-close" id="bk-close" aria-label="Cerrar">✕</button>
+        <iframe id="bk-frame" class="bk-modal-frame" title="Reservar limpieza" src=""></iframe>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

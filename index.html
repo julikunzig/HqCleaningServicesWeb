@@ -19,7 +19,7 @@
           <a href="#how-it-works">How it works</a>
           <a href="#why-hq">Why HQ</a>
           <a href="#contact">Contact</a>
-          <a class="nav-quote-link" href="https://suite.kalimasgroup.net/en/book/klean/hq-cleaning-services" target="_blank" rel="noopener">Get a quote <span aria-hidden="true">↗</span></a>
+          <a class="nav-quote-link" href="#" data-open-booking>Get a quote <span aria-hidden="true">↗</span></a>
           <a href="es.html">Español</a>
         </nav>
         <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
@@ -33,7 +33,7 @@
           <h1 id="hero-title">High quality<br />cleaning you can<br />count on.</h1>
           <p class="intro">Precise, reliable and specialized cleaning for offices, companies, commercial spaces, homes and rental properties. Every job is checked before we leave.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="https://suite.kalimasgroup.net/en/book/klean/hq-cleaning-services" target="_blank" rel="noopener">Get a free quote</a>
+            <a class="button button-primary" href="#" data-open-booking>Get a free quote</a>
             <a class="button button-outline" href="https://wa.me/13057762331" target="_blank" rel="noopener">WhatsApp us</a>
           </div>
         </div>
@@ -101,7 +101,7 @@
           <p class="quote-cta-eyebrow">Get your itemized estimate in minutes</p>
           <h3 class="quote-cta-title">Ready to get started?</h3>
           <p class="quote-cta-body">Our online quote wizard walks you through the details, including space type, frequency and extras, then provides a clear price with no commitment.</p>
-          <a class="button button-primary quote-cta-btn" href="https://suite.kalimasgroup.net/en/book/klean/hq-cleaning-services" target="_blank" rel="noopener">Get my free quote <span aria-hidden="true">→</span></a>
+          <a class="button button-primary quote-cta-btn" href="#" data-open-booking>Get my free quote <span aria-hidden="true">→</span></a>
           <p class="quote-cta-note">Already have a quote? Check your email for the link to track your service.</p>
         </aside>
       </section>
@@ -111,6 +111,13 @@
         <p>Facebook · Instagram @hqcleaning_services</p>
       </footer>
     </main>
+    <div id="booking-modal" class="bk-modal" role="dialog" aria-modal="true" aria-label="Book a cleaning" hidden>
+      <div class="bk-modal-backdrop"></div>
+      <div class="bk-modal-box">
+        <button class="bk-modal-close" id="bk-close" aria-label="Close">✕</button>
+        <iframe id="bk-frame" class="bk-modal-frame" title="Book a cleaning" src=""></iframe>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
